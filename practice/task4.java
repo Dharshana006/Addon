@@ -3,7 +3,6 @@ package practice;
 import java.util.Arrays;
 
 public class task4 {
-	
 	public static void reversearray(int arr[])
 	{
 		int left=0;
@@ -28,7 +27,6 @@ public class task4 {
 		int arr[]= {2,4,5,3,8,9,10};
 		
 		Arrays.sort(arr);
-		
 		reversearray(arr);
 		
 		System.out.println("decending order "+ Arrays.toString(arr));
