@@ -7,7 +7,7 @@ public class task6 {
 	
 public static void main(String[] args) {
 		
-
+			//remove duplicates
 		int[] arr= {2,3,4,4,5,8,2,3};
 		
 		Arrays.sort(arr);

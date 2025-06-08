@@ -9,31 +9,26 @@ public static void palindrom(String word) {
 		
 	char arr[]=word.toCharArray();
 	
-		int start=0;
+		
 		int end=arr.length-1;
 		
-		while(start<end) {
+		for(int start=0;start<end;) {
 		if(arr[start]!=(arr[end])) {
 			
 			System.out.println("not a palindrome");
 			return;
-	
-		}
+	}
 		
 		start++;
 		end--;
 		
 		}
 		System.out.println("palindrome");
-
-		
 }
 	public static void main(String[] args) {
 		
 		Scanner s=new Scanner(System.in);
-		
 		String word=s.nextLine();
-		
 		
 		task7.palindrom(word);
 		
